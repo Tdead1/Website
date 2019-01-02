@@ -22,14 +22,13 @@
 }
 
 @font-face {
-	font-size: 6px;
 	font-family: 'Karla', sans-serif;
 }
 
 p{
 	color: #EEE;
 	vertical-align: top;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: Karla;
 }
 td
