@@ -1,0 +1,41 @@
+Primary Info:
+   About me:
+   - Name: Tom Kemna
+   - Role: C++ Rapid Prototyper
+   
+   I'm a game developer who is interested in working on large scale projects. I fit well in teams,
+   I'm social and get along well with just about everyone. I've been a programmer in several different
+   roles over the last few years, getting more experienced with a lot of subjects, including prototyping,
+   networking, leading, and even more specific things such as developing for the Raspberry Pi, inverse 
+   kinematics and writing math libraries.   
+   
+   Want to get in touch with me? Feel free to contact me at tomkemna@gmail.com, or if you want a printable
+   portfolio download the web version here.
+
+   
+Experience: 2 years educationally
+Skills:
+   Tools:
+   - C++
+   - UE4
+   - Perforce
+   Soft:
+   - Teamwork
+   - Communication
+   - Proactivity
+
+Projects: 
+- Morbid  : Unreal Project. Lead PR, Rapid Prototyping.		(2018-2019)
+- Bioside : Unreal Project. Lead PR, Rapid Prototyping.		(2017)
+- TiFrame : Engine Project. C++, OpenGL 3.3, ImGUI.			(2017-2018)
+- BaBooms : Unreal Project. Networking, Game Programming. 	(2016-2017)
+
+Additional information:
+Education: 
+- Breda University of Applied Sciences: International Game Architecture and Design (2016-2021, Master of Game Architecture and Design)
+Languages: 
+- English 	(Proficient, CPE)
+- Dutch   	(Proficient, Native)
+- German	(Basic, high school)
+- French	(Basic, high school)
+
