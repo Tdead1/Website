@@ -38,6 +38,7 @@ function Update()
 
 	if(elementMouseIsOver != null)
 	{
+		// card 0 BIOSIDE
 		if(elementMouseIsOver.id == "cardBioside" && clicked == true)
 		{
 			infoSlides[0].style.display = "block";
@@ -51,6 +52,7 @@ function Update()
 			infoSlides[0].style.display = "none";
 		}
 		
+		// card 1 TIFRAME
 		if(elementMouseIsOver.id == "cardTiframe" && clicked == true)
 		{
 			openSlide = 1;
@@ -62,6 +64,46 @@ function Update()
 			infoSlides[1].style.display = "none";
 			//openSlide = -1;
 		}
+		/*
+		// card 2 Morbid?
+		if(elementMouseIsOver.id == "card2" && clicked == true)
+		{
+			openSlide = 2;
+			infoSlides[2].style.display = "block";
+		}
+		else if ((!(elementMouseIsOver == infoSlides[2] || elementMouseIsOver.parentNode == infoSlides[2]) && clicked == true)  || openSlide != 2)
+		{
+			//infoSlides[0].style.right = "-50vw"
+			infoSlides[2].style.display = "none";
+			//openSlide = -1;
+		}
+		
+		// card 3 BaBooms?
+		if(elementMouseIsOver.id == "card3" && clicked == true)
+		{
+			openSlide = 3;
+			infoSlides[3].style.display = "block";
+		}
+		else if ((!(elementMouseIsOver == infoSlides[3] || elementMouseIsOver.parentNode == infoSlides[3]) && clicked == true)  || openSlide != 3)
+		{
+			//infoSlides[0].style.right = "-50vw"
+			infoSlides[3].style.display = "none";
+			//openSlide = -1;
+		}
+		
+		// card 4 MMO framework?
+		if(elementMouseIsOver.id == "card4" && clicked == true)
+		{
+			openSlide = 4;
+			infoSlides[4].style.display = "block";
+		}
+		else if ((!(elementMouseIsOver == infoSlides[4] || elementMouseIsOver.parentNode == infoSlides[4]) && clicked == true)  || openSlide != 4)
+		{
+			//infoSlides[0].style.right = "-50vw"
+			infoSlides[4].style.display = "none";
+			//openSlide = -1;
+		}
+		*/
 	}
 	
 	clicked = false;
