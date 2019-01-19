@@ -42,13 +42,13 @@ function Update()
 		if(elementMouseIsOver.id == "cardBioside" && clicked == true)
 		{
 			infoSlides[0].style.display = "block";
-			document.getElementById("videoBioside").contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*')
+			document.getElementById("videoBioside").contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
 			openSlide = 0;
 		}
 		else if ((!(elementMouseIsOver == infoSlides[0] || elementMouseIsOver.parentNode == infoSlides[0]) && clicked == true) || openSlide != 0)
 		{
 			//openSlide = -1;
-			document.getElementById("videoBioside").contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+			document.getElementById("videoBioside").contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 			infoSlides[0].style.display = "none";
 		}
 		
@@ -56,17 +56,19 @@ function Update()
 		if(elementMouseIsOver.id == "cardTiframe" && clicked == true)
 		{
 			openSlide = 1;
+			document.getElementById("videoTiFrame").contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
 			infoSlides[1].style.display = "block";
 		}
 		else if ((!(elementMouseIsOver == infoSlides[1] || elementMouseIsOver.parentNode == infoSlides[1]) && clicked == true)  || openSlide != 1)
 		{
 			//infoSlides[0].style.right = "-50vw"
+			document.getElementById("videoTiFrame").contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 			infoSlides[1].style.display = "none";
 			//openSlide = -1;
 		}
-		/*
-		// card 2 Morbid?
-		if(elementMouseIsOver.id == "card2" && clicked == true)
+		
+		// card 2 BaBooms?
+		if(elementMouseIsOver.id == "cardBabooms" && clicked == true)
 		{
 			openSlide = 2;
 			infoSlides[2].style.display = "block";
@@ -77,8 +79,8 @@ function Update()
 			infoSlides[2].style.display = "none";
 			//openSlide = -1;
 		}
-		
-		// card 3 BaBooms?
+		/*
+		// card 3 Morbid?
 		if(elementMouseIsOver.id == "card3" && clicked == true)
 		{
 			openSlide = 3;
