@@ -7,23 +7,18 @@
 }
 
 @font-face {
-    font-family: Arcade;
-    src: url(Resources/Fonts/Arcade.ttf);
+	font-family: Aleo-regular;
+	src: url(Resources/Fonts/Aleo/Aleo-Regular.ttf);
 }
 
 @font-face {
-    font-family: Geo;
-    src: url(Resources/Fonts/Geo/GeosansLight.ttf);
+	font-family: Aleo-light;
+	src: url(Resources/Fonts/Aleo/Aleo-Light.ttf);
 }
 
 @font-face {
-	font-family: 'Open Sans', sans-serif;
-	src: (https://fonts.googleapis.com/css?family=Open+Sans) ;
-}
-
-@font-face {
-	font-family: Karla;
-	src: url(Resources/Fonts/Karla/Karla-Regular.ttf);
+	font-family: Chivo;
+	src: url(Resources/Fonts/Chivo/Chivo-Light.ttf);
 }
 
 p{
@@ -31,7 +26,7 @@ p{
 	text-align: left;
 	vertical-align: top;
 	font-size: 20px;
-	font-family: Karla;
+	font-family: Chivo;
 }
 
 td
@@ -43,9 +38,10 @@ td
 }
 h1
 {
+	font-family: Aleo-light;
 	text-align: left;
 	color: #EEE;
-	font-size: 32px;
+	font-size: 42px;
 }
 h2
 {
@@ -84,8 +80,9 @@ body {
 	padding: 12px 5% 12px 5%;
 	margin: 0 auto 0 auto;
 	width: 70%;
+	min-height: 500px;
 	background-size:contain;
-	/*background-color: #202023;*/
+	background-color: #1d1e22;
 	text-align: center;	
 }
 .about .logo {
@@ -115,7 +112,7 @@ body {
 	border-radius: 25px;
 	border-color: #FFF;
 	/*position:relative;*/
-	width: 300px;
+	width: 250px;
 	min-height:460px;
 	/*height: 700px;
 	margin-left:  -32px;
@@ -145,7 +142,7 @@ body {
 	margin: 0vh 0vh 0vh 0vh;
 	width: 100%;
 	height: auto;
-	/*background-color: rgba(0,0,0,0.4);*/
+	background-color: rgba(0,0,0,0.4);
 }
 
 .header {
@@ -202,6 +199,7 @@ body {
 	font-size: 128px;
 	color: #FFFFFF;
 	text-align: right;
+	font-family: Aleo-regular;
 	padding: 0% 10% 0% 0%;
 }
 .introMainText
@@ -218,13 +216,7 @@ body {
 
 .pictureHolder
 {
-	/*margin:auto;							*/	
-	/*width: 33.33333333%;                  */      
-	/*min-width: 360px;                     */      
-	/*height: 500px;                        */      
-	/*float: left;                          */      
-	/*background-color: rgba(0,0,0,0.4);    */      
-	/*padding: 5% 0% 3% 0%;                 */      
+    
 }   
 .pictureHolder .cardFrame
 {
@@ -236,7 +228,7 @@ body {
 	padding: 12px 5% 12px 5%;	
 	margin: auto;             
 	width: 70%;               
-	/*background-color: #202020;*/
+	background-color: #1d1e22;
 	text-align: center;	      
 }
 
@@ -246,7 +238,7 @@ body {
 	padding: 12px 5% 12px 5%;          
 	margin: auto;             
 	width: 70%;               
-	/*background-color: #202020;*/
+	background-color: #1d1e22;
 	text-align: center;	      
 }
 
@@ -255,6 +247,6 @@ body {
 	padding: 12px 5% 12px 5%;                  
 	margin: auto auto 300px auto;             
 	width: 70%;               
-	/*background-color: #202020;*/
+	background-color: #1d1e22;
 	text-align: center;	      
 }

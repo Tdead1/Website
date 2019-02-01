@@ -67,7 +67,7 @@ function Update()
 			//openSlide = -1;
 		}
 		
-		// card 2 BaBooms?
+		// card 2 BaBooms
 		if(elementMouseIsOver.id == "cardBabooms" && clicked == true)
 		{
 			openSlide = 2;
@@ -79,22 +79,24 @@ function Update()
 			infoSlides[2].style.display = "none";
 			//openSlide = -1;
 		}
-		/*
-		// card 3 Morbid?
-		if(elementMouseIsOver.id == "card3" && clicked == true)
+		
+		// card 3 Morbid
+		if(elementMouseIsOver.id == "cardShatteredLights" && clicked == true)
 		{
 			openSlide = 3;
+			document.getElementById("videoShatteredLights").contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
 			infoSlides[3].style.display = "block";
 		}
 		else if ((!(elementMouseIsOver == infoSlides[3] || elementMouseIsOver.parentNode == infoSlides[3]) && clicked == true)  || openSlide != 3)
 		{
 			//infoSlides[0].style.right = "-50vw"
 			infoSlides[3].style.display = "none";
+			document.getElementById("videoShatteredLights").contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 			//openSlide = -1;
 		}
 		
-		// card 4 MMO framework?
-		if(elementMouseIsOver.id == "card4" && clicked == true)
+		// card 4 Gamejams
+		if(elementMouseIsOver.id == "cardGameJams" && clicked == true)
 		{
 			openSlide = 4;
 			infoSlides[4].style.display = "block";
@@ -105,7 +107,6 @@ function Update()
 			infoSlides[4].style.display = "none";
 			//openSlide = -1;
 		}
-		*/
 	}
 	
 	clicked = false;
