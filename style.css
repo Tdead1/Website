@@ -92,6 +92,14 @@ body {
 .about .logo img {
 	height: 120px;
 }
+.about .logo p {
+	color: #888888;
+	font-size: 16px;
+}
+.about .logo p b {
+	color: #DDDDDD;
+	font-size: 20px
+}
 
 .card {
 	width: auto;
@@ -123,6 +131,14 @@ body {
 }
 .cardFrame p {
 	margin-bottom: 25px;
+	font-size: 16px;
+	color: #888888;
+}
+.cardFrame p b {
+	margin-bottom: 25px;
+	font-size: 20px;
+	color: #DDDDDD;
+	
 }
 .cardFrame .card {
 	vertical-align: top; 
