@@ -1,4 +1,4 @@
-# Website
+# Tom Kemna's portfolio website.
 
 ### Feel free to dig around in the code if you want an example!
 
