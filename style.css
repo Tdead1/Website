@@ -142,6 +142,7 @@ body {
 }
 .cardFrame .card {
 	vertical-align: top; 
+	cursor: pointer; 
 }
 
 .centerText{
