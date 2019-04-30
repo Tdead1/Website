@@ -155,6 +155,14 @@ body {
 	background-color: rgba(0,0,0,0.4);
 }
 
+.closeImage {
+	display: inline-block;
+	margin-top: 3vh;
+	float: right;
+	width: 82px;
+	cursor: pointer; 
+	
+}
 .content {
 	margin: 0vh 0vh 0vh 0vh;
 	width: 100%;
@@ -195,7 +203,8 @@ body {
 	display: none;
     top: 0;
 	min-width: 35vw;
-	width: 800px;
+	max-width: 80%;
+	width: 60%;
     height: 99.9vh;
     right: 0vw;
     background-color: #080808;	
@@ -213,7 +222,7 @@ body {
 }
 .introName
 {
-	font-size: 128px;
+	font-size: 84px;
 	color: #FFFFFF;
 	text-align: right;
 	font-family: Aleo-regular;

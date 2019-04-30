@@ -38,6 +38,10 @@ function Update()
 
 	if(elementMouseIsOver != null)
 	{
+		if(elementMouseIsOver.classList.contains("closeImage") && clicked == true)
+		{
+			openSlide = -1;
+		}
 		// card 0 BIOSIDE
 		if(elementMouseIsOver.id == "cardBioside" && clicked == true)
 		{
