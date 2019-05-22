@@ -46,29 +46,24 @@ function Update()
 		if(elementMouseIsOver.id == "cardBioside" && clicked == true)
 		{
 			infoSlides[0].style.display = "block";
-			document.getElementById("videoBioside").contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
 			openSlide = 0;
 		}
 		else if ((!(elementMouseIsOver == infoSlides[0] || elementMouseIsOver.parentNode == infoSlides[0]) && clicked == true) || openSlide != 0)
 		{
-			//openSlide = -1;
 			document.getElementById("videoBioside").contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 			infoSlides[0].style.display = "none";
 		}
 		
-		// card 1 TIFRAME
-		if(elementMouseIsOver.id == "cardTiframe" && clicked == true)
+		// card 1 Shattered Lights
+		if(elementMouseIsOver.id == "cardShatteredLights" && clicked == true)
 		{
 			openSlide = 1;
-			document.getElementById("videoTiFrame").contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
 			infoSlides[1].style.display = "block";
 		}
 		else if ((!(elementMouseIsOver == infoSlides[1] || elementMouseIsOver.parentNode == infoSlides[1]) && clicked == true)  || openSlide != 1)
 		{
-			//infoSlides[0].style.right = "-50vw"
-			document.getElementById("videoTiFrame").contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 			infoSlides[1].style.display = "none";
-			//openSlide = -1;
+			document.getElementById("videoShatteredLights").contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 		}
 		
 		// card 2 BaBooms
@@ -79,25 +74,23 @@ function Update()
 		}
 		else if ((!(elementMouseIsOver == infoSlides[2] || elementMouseIsOver.parentNode == infoSlides[2]) && clicked == true)  || openSlide != 2)
 		{
-			//infoSlides[0].style.right = "-50vw"
 			infoSlides[2].style.display = "none";
-			//openSlide = -1;
 		}
 		
-		// card 3 Morbid
-		if(elementMouseIsOver.id == "cardShatteredLights" && clicked == true)
+		
+		// card 1 TIFRAME
+		if(elementMouseIsOver.id == "cardTiframe" && clicked == true)
 		{
 			openSlide = 3;
-			document.getElementById("videoShatteredLights").contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
 			infoSlides[3].style.display = "block";
 		}
 		else if ((!(elementMouseIsOver == infoSlides[3] || elementMouseIsOver.parentNode == infoSlides[3]) && clicked == true)  || openSlide != 3)
 		{
-			//infoSlides[0].style.right = "-50vw"
+			document.getElementById("videoTiFrame").contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
 			infoSlides[3].style.display = "none";
-			document.getElementById("videoShatteredLights").contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-			//openSlide = -1;
 		}
+		
+		
 		
 		// card 4 Gamejams
 		if(elementMouseIsOver.id == "cardGameJams" && clicked == true)
@@ -107,9 +100,7 @@ function Update()
 		}
 		else if ((!(elementMouseIsOver == infoSlides[4] || elementMouseIsOver.parentNode == infoSlides[4]) && clicked == true)  || openSlide != 4)
 		{
-			//infoSlides[0].style.right = "-50vw"
 			infoSlides[4].style.display = "none";
-			//openSlide = -1;
 		}
 	}
 	
