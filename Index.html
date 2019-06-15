@@ -110,7 +110,7 @@
 					<p> We worked in a team of 19 people to create a VR shooter with innovative movement mechanics. 
 						</br></br>
 						<b>	My contributions: </b>
-						</br>- 3 guns and 2 grenades.
+						</br>- 3 guns and 3 grenades.
 						</br>- Holstering system for weaponry.
 						</br>- Implementing onepagers for prototypes.
 						</br>- Communication point for the 7 programmers in the team.
@@ -124,13 +124,25 @@
 						This game doesn't have gravity. That means you're pulling yourself around the level while shooting rocket launchers, machine guns, revolvers and more at hostile drones. Creating these
 						weapons was amazing, working with gameplay designers to get everything to feel just right. The story of the game is that you're boarding a ship where the AI has gone rogue, and you're there
 						to shut it down forcefully. Getting the movement under control is tricky at first, but when you get used to it you are flying around the ship shooting things left and right. 
-						
+					</p>
 						</br></br>
 						<p style="text-align:center"> <b>Released on itch.io: 
-						<a href="https://igad.itch.io/bioside"> https://igad.itch.io/bioside</a> </b></p>
+						<a href="https://igad.itch.io/bioside"> https://igad.itch.io/bioside</a> </b> </p>
 						</br>
+					<p>
+						Some more details on my work on this project. I was primarily developing gameplay for this project. I developed a gameplay event trigger system, so that our designers could easily implement
+						things like enemy spawning, or moving onto the next part of the tutorial. Besides that, I was focussed on implementing weaponry, as specified before. I worked closely together with two designers to really get the weapons to feel correct and behave in a suitable way for our game.
 						
-						</br> Here are some screenshots:
+						</br></br> I created three different grenades. The first was a grenade that either pushed or pulled all physics objects, including enemies. The second grenade is a threat detector, that shows all enemies within a certain radius through walls, for easy targeting and executing. The third grenade is more conventional: an explosive knife that sticks in your enemies, and then explodes, killing your targets.
+						
+						</br></br> Besides the grenades, I also implemented several guns. The first was an assault rifle/shotgun hybrid called "The Metalstorm" that you could use with either one or two hands, with a functional red dot sight for VR, and magazines that you can physically pull out to reload it. The firing speed was graph based, the less bullets you have, the slower it fires. It also had a secondary fire, which shot all of your bullets in a shotgun spread, but you needed to hold the gun with both hands to use it. I also created a Rocket Launcher that had manual guidance capabilities, and a lock-on system for tracking rockets. Besides that, I also worked on the revolver, giving it a flick forward to open it up so you could reload it. In the end, even though it looked really cool, we decided to remove the reloading systems from the game to give a smoother experience. Tossing your guns away was more fun in VR than trying to reload them.
+						
+						</br></br> The holstering system was probably one of the biggest challenges I faced on this project, tech wise. Having the holsters follow the players head movement felt very unnatural, but fully simulating a body in zero gravity was impossible, scope wise. In the end I extrapolated a position near the hips and near the shoulders of the player based on their hand location and the head rotation, but it could still be improved more. It was also implemented in a rush, as we came up with it less than two weeks before release. It worked out in the end, and ended up making the game more fun.
+						
+						</br></br> I also implemented the onboarding robot and all of it's voicelines and all the triggers to activate those voicelines two days before release. 
+						
+						
+						</br></br></br> Here are some screenshots:
 					</p>
 					<img src="Resources\Images\Bioside1.png">
 					<img src="Resources\Images\Bioside2.png">
@@ -188,7 +200,7 @@
 					</br>- Time period was only 6 weeks
 					</br>- Very small team, high pressure environment.
 					</p>
-				<p> I created the base for the project and did all the networking logic.</p>
+				<p> I created the base for the project and did all the networking logic, and part of the gameplay logic.</p>
 				<p> For this project, I started out as the only programmer. I was in charge of making the gameplay, and to get it to work on a local network. Later on, more programmers joined the team, 
 				although my role stayed the same.</p> 
 				</br>
@@ -199,7 +211,19 @@
 				<p> This is a 4 player team based game that's all about sabotaging your opponents while trying to find specific monster parts. The players control hopping baboons who
 				are trying to build a monster out of limbs. The parts are scattered around the map and the goal is to collect all parts and bring them back to your own lab, to bring the monster to life. 
 				The first team to get all the parts wins the game. You're able to place traps and utilities around the level to delay or your opponents or gather information.</p>
-				<p> Although this was just a school project, I learned the basics of networking from these 6 weeks of development. </p> </br></br></br></br></br>
+				
+				</br><img src="Resources/Images/BaboomsAward.png" style="display: block; margin: auto;"/> 
+				
+				<p> Some more details on my work during this project. This was a first year project, so we were still new to UE4, and we decided we wanted to create a multiplayer game. We had 6 weeks to develop this game, so it's fair to say that we overscoped slightly. I was the only programmer during the first two weeks, which meant that I had to not only create a working multiplayer demo using UE4's replication system, but also implement the initial gameplay features such as player movement, object interaction and room traversing. 
+				
+				</br></br>Our project passed the first project culling, giving us two more weeks to flesh out the gameplay to something that looks remotely enjoyable. I got an extra programmer in the team, who had no networking experience, so the networking part was still my responsiblity. After those two weeks, we had a semi-playable game with two teams consisting of two players per team. There wasn't much gameplay yet, except for pressing F on objects to search them and placing traps on those objects using E, but the core game loop was implmented (connecting, finding the parts, winning, and disconnecting).
+				
+				</br></br>Our project then passed the second culling round, giving us a total of 13 people, including 4 programmers, who had to work with the hastily assembled networking system that I, as a first time networking developer, wrote in the first four weeks. Of course, code quality was not up to standard, and it was incredibly bugged out. We managed to pull the systems together so it was at least playable, and we ended up getting the "Best Game Programming" award for Babooms that year!
+				
+				
+				</br></br>Although this was just a school project, I learned the basics of networking from these 6 weeks of development. 
+				
+				</p> </br></br></br></br></br>
 			</div>
 			
 			<div class="informationSlide" id="tiframe">
