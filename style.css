@@ -67,8 +67,8 @@ body {
 
 .background {
 	background-color: #121215;
-	width: 100pw;
-	height: 100ph;
+	width: 100vw;
+	height: 100vh;
 	overflow-x: hidden;
 }
 
@@ -89,6 +89,14 @@ body {
 	padding: 0 12px 0 12px;
 	display: inline-block;
 }
+.about a {
+	outline: none;
+	text-decoration: none;
+}
+.about a:hover {
+	/* outline: auto; */
+	text-decoration: underline;
+}
 .about .logo img {
 	height: 120px;
 }
@@ -99,16 +107,17 @@ body {
 .about .logo p b {
 	color: #DDDDDD;
 	font-size: 20px;
+	text-decoration: auto;
 }
 
 .card {
 	width: auto;
 	height: 256px;
-	margin: auto;
+	/* margin: 0;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0; */
 }
 .cardDisplay{
 	width:100%; 
@@ -138,6 +147,7 @@ body {
 .cardFrame .card {
 	vertical-align: top; 
 	cursor: pointer; 
+	border-radius: 12px;
 }
 
 .centerText{
@@ -217,14 +227,27 @@ body {
 }
 .introName
 {
+	margin-right: 12%;
 	font-size: 84px;
 	color: #FFFFFF;
 	text-align: right;
 	font-family: Aleo-regular;
 	padding: 0% 10% 0% 0%;
 }
+.introProfilePicture
+{
+	border-radius: 20px;
+	/* margin-right: 10%; */
+	padding-right: 3%;
+	margin-left: 2%;
+	height: 15.5em;   
+	color: #FFFFFF;
+	float: right;
+	padding: 0% 10% 0% 0%;
+}
 .introMainText
 {
+	margin-right: 12%;
 	text-align: right;
 	padding: 0% 10% 0% 0%;
 }
