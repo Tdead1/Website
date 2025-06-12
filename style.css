@@ -69,7 +69,7 @@ body {
 	background-color: #121215;
 	width: 100pw;
 	height: 100ph;
-	overflow-x = hidden;
+	overflow-x: hidden;
 }
 
 /* ---------------------------------------------------------- */ 
@@ -98,7 +98,7 @@ body {
 }
 .about .logo p b {
 	color: #DDDDDD;
-	font-size: 20px
+	font-size: 20px;
 }
 
 .card {
@@ -119,13 +119,8 @@ body {
 	display: inline-block;
 	border-radius: 25px;
 	border-color: #FFF;
-	/*position:relative;*/
 	width: 250px;
 	min-height:460px;
-	/*height: 700px;
-	margin-left:  -32px;
-	margin-right: -32px;
-	margin-bottom: -250px;*/
 	margin: 0;
 	vertical-align: top; 
 }
