@@ -3,69 +3,62 @@
 /* ---------------------------------------------------------- */ 
 
 * {
-	/* Global reset placeholder – empty for now */
+	
 }
 
 @font-face {
-	font-family: 'Aleo Regular';
+	font-family: Aleo-regular;
 	src: url(Resources/Fonts/Aleo/Aleo-Regular.ttf);
 }
 
 @font-face {
-	font-family: 'Aleo Light';
+	font-family: Aleo-light;
 	src: url(Resources/Fonts/Aleo/Aleo-Light.ttf);
 }
 
 @font-face {
-	font-family: 'Chivo';
+	font-family: Chivo;
 	src: url(Resources/Fonts/Chivo/Chivo-Light.ttf);
 }
 
-@font-face {
-	font-family: 'Centabel';
-	src: url(Resources/Fonts/Centabel/Centabel.ttf);
-}
-
-p {
-	color: #E6E6F0;
+p{
+	color: #EEE;
 	text-align: left;
 	vertical-align: top;
 	font-size: 20px;
-	font-family: 'Chivo', sans-serif;
+	font-family: Chivo;
 }
 
-td {
-	color: #E6E6F0;
+td
+{
+	color: #EEE;
 	vertical-align: top;
 	font-size: 30px;
-	font-family: 'Centabel', serif;
+	font-family: Centabel;
 }
-
-h1 {
-	font-family: 'Aleo Light', serif;
+h1
+{
+	font-family: Aleo-light;
 	text-align: left;
-	color: #F2F2F7;
+	color: #EEE;
 	font-size: 42px;
 }
-
-h2 {
+h2
+{
 	text-align: left;
-	color: #FFFFFF;
+	color: #FFF;
 	font-size: 20px;
 }
-
-a {
-	color: #3EC8FF; 
-	text-decoration: none;
+a{
+	color:#21c2f8; 
 }
 
-hr {
+hr{
 	margin: 5em 30% 0 30%;
 }
 
 body {
-	margin: 0;
-	display: flex;
+	margin:0;
 	align-items: center;
 	font-family: 'Raleway', sans-serif;
 	flex-direction: column;
@@ -73,7 +66,7 @@ body {
 }
 
 .background {
-	background-color: #0E0F12;
+	background-color: #121215;
 	width: 100vw;
 	height: 100vh;
 	overflow-x: hidden;
