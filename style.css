@@ -86,7 +86,14 @@ body {
 	text-align: center;	
 }
 
-.about .logo {
+.about .logos {
+	width: 120%;
+	margin-left: -10%;
+	margin-right: -10%;
+}
+
+
+.about .logos .logo {
 	padding: 0 12px;
 	display: inline-block;
 }
@@ -122,7 +129,8 @@ body {
 }
 
 .cardDisplay {
-	width: 100%; 
+	width: 120%; 
+	margin-left: -10%;
 }
 
 .cardFrame {
